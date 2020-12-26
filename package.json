@@ -1,0 +1,14 @@
+{
+  "name": "jsonquery",
+  "version": "1.0.0",
+  "description": "This small function allows to pass any JSON data and prettify based on URL query params:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
