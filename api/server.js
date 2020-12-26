@@ -18,7 +18,7 @@ module.exports = (req, res) => {
       return;
     }
 
-    const result = _.get(object, req.query.path);
+    const result = JSON.stringify(_.get(object, req.query.path));
     res.status(200).send(result+NEWLINE);
   } catch(err) {
     res.status(400).send(`Not valid JSON input: ${err}\n`);
